@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is RAG and how does it work at a high level?",
+    "source": "rag_overview.md",
+    "must_contain": "combines a search step",
+    "answer_contains": [
+      "search"
+    ]
+  },
+  {
+    "question": "Why does grounding answers in documents reduce hallucination?",
+    "source": "rag_overview.md",
+    "must_contain": "Grounding the answer",
+    "answer_contains": [
+      "retrieved"
+    ]
+  },
+  {
+    "question": "How does Reciprocal Rank Fusion score a chunk?",
+    "source": "rag_overview.md",
+    "must_contain": "1 / (k + rank)",
+    "answer_contains": [
+      "rank"
+    ]
+  },
+  {
+    "question": "Which search method is better at matching exact error codes or product names?",
+    "source": "rag_overview.md",
+    "must_contain": "Keyword search with BM25",
+    "answer_contains": [
+      "bm25"
+    ]
+  },
+  {
+    "question": "Which metrics can measure retrieval quality?",
+    "source": "rag_overview.md",
+    "must_contain": "hit rate",
+    "answer_contains": [
+      "hit rate"
+    ]
+  },
+  {
+    "question": "What are the stages of a RAG pipeline?",
+    "source": "rag_overview.md",
+    "must_contain": "Chunking: each document",
+    "answer_contains": [
+      "chunk"
+    ]
+  },
+  {
+    "question": "What is the difference between a Docker image and a container?",
+    "source": "docker_basics.md",
+    "must_contain": "read-only template",
+    "answer_contains": [
+      "container"
+    ]
+  },
+  {
+    "question": "How can I keep data after a container is removed?",
+    "source": "docker_basics.md",
+    "must_contain": "A volume stores data",
+    "answer_contains": [
+      "volume"
+    ]
+  },
+  {
+    "question": "How do I make port 8501 of a container reachable from my machine?",
+    "source": "docker_basics.md",
+    "must_contain": "publish a port",
+    "answer_contains": [
+      "-p"
+    ]
+  },
+  {
+    "question": "Why should the requirements file be copied before the rest of the code in a Dockerfile?",
+    "source": "docker_basics.md",
+    "must_contain": "reuse cached layers",
+    "answer_contains": [
+      "cache"
+    ]
+  },
+  {
+    "question": "How do services in Docker Compose find each other?",
+    "source": "docker_basics.md",
+    "must_contain": "shared network",
+    "answer_contains": [
+      "service name"
+    ]
+  },
+  {
+    "question": "When is it unsafe to rebase?",
+    "source": "git_workflow.md",
+    "must_contain": "Never rebase commits",
+    "answer_contains": [
+      "history"
+    ]
+  },
+  {
+    "question": "How do I safely undo a commit on a shared branch?",
+    "source": "git_workflow.md",
+    "must_contain": "git revert creates a new commit",
+    "answer_contains": [
+      "revert"
+    ]
+  },
+  {
+    "question": "How should the first line of a commit message be written?",
+    "source": "git_workflow.md",
+    "must_contain": "imperative mood",
+    "answer_contains": [
+      "imperative"
+    ]
+  },
+  {
+    "question": "What causes a merge conflict?",
+    "source": "git_workflow.md",
+    "must_contain": "change the same lines",
+    "answer_contains": [
+      "same"
+    ]
+  }
+]
